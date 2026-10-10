@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf4f0">
+  <meta name="description" content="Bolos decorados sob encomenda pela Kassimos Bolos. Escolha o tamanho, conte sua ideia e envie o pedido pelo WhatsApp.">
+  <meta property="og:title" content="Kassimos Bolos Decorados">
+  <meta property="og:description" content="Bolos decorados sob encomenda. Conte sua ideia e envie o pedido pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <title>Kassimos Bolos Decorados | Faça sua encomenda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ícone de bolo reutilizado no logo e nos espaços de foto -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="icon-cake" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="32" cy="9" r="3"/>
+        <rect x="22" y="15" width="20" height="11" rx="2"/>
+        <rect x="15" y="26" width="34" height="13" rx="2"/>
+        <rect x="8" y="39" width="48" height="14" rx="2"/>
+        <path d="M5 57h54"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="announcement">Bolos decorados sob encomenda · peça pelo WhatsApp ♡</div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Kassimos Bolos Decorados, início">
+      <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#icon-cake"/></svg></span>
+      <span class="brand-copy"><span class="brand-name">Kassimos</span><span class="brand-subtitle">BOLOS DECORADOS</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#tamanhos">Tamanhos</a>
+      <a href="#como-funciona">Como encomendar</a>
+      <a class="nav-cta" href="#encomenda">Fazer encomenda <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-line"></span> BOLOS DECORADOS SOB ENCOMENDA</span>
+        <h1>O bolo que a sua comemoração <em>merece.</em></h1>
+        <p>Você conta a ideia, a gente transforma em bolo: decorado do seu jeito, no tema que você imaginar e no tamanho certo para os seus convidados.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#encomenda">Montar meu pedido <span>↓</span></a>
+          <a class="text-link" href="#trabalhos">Ver trabalhos <span>↗</span></a>
+        </div>
+        <ul class="hero-facts">
+          <li>Tamanhos de aro 15, 21 e 25</li>
+          <li>Do clássico ao tema que você quiser</li>
+          <li>Pedido finalizado pelo WhatsApp</li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-frame">
+          <div class="photo">
+            <img src="images/bolo-vintage.jpg" alt="Bolo branco com bicos de chantilly e rosas de glacê bordô, em estilo vintage" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>a foto do bolo entra aqui</span></div>
+          </div>
+        </div>
+        <div class="round-stamp" aria-hidden="true"><span>feito com</span><strong>amor</strong><span>em cada detalhe</span><b>♡</b></div>
+        <span class="decor decor-one" aria-hidden="true">✳</span><span class="decor decor-two" aria-hidden="true">✿</span>
+      </div>
+      <div class="hero-bottom-line"></div>
+    </section>
+
+    <section class="section works-section" id="trabalhos">
+      <div class="section-heading">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> TRABALHOS RECENTES</span><h2>Cada bolo, uma <em>história.</em></h2></div>
+        <p>Alguns bolos que já saíram da nossa cozinha. Gostou de um estilo? Toque em “Quero assim” e levamos a inspiração direto para o seu pedido.</p>
+      </div>
+
+      <div class="works-grid">
+        <figure class="work">
+          <div class="photo" data-label="Vintage com rosas">
+            <img src="images/bolo-vintage.jpg" alt="Bolo branco com bicos de chantilly e rosas de glacê bordô, em estilo vintage" loading="lazy" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>foto em breve</span></div>
+          </div>
+          <figcaption><span class="work-title">Vintage com rosas</span><button class="work-pick" type="button" data-inspiration="bolo vintage com rosas bordô">Quero assim ↗</button></figcaption>
+        </figure>
+
+        <figure class="work">
+          <div class="photo" data-label="Degradê azul e rosa">
+            <img src="images/bolo-degrade.jpg" alt="Bolo com cobertura em degradê de azul para rosa e borda de chantilly rosa" loading="lazy" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>foto em breve</span></div>
+          </div>
+          <figcaption><span class="work-title">Degradê azul e rosa</span><button class="work-pick" type="button" data-inspiration="bolo com degradê azul e rosa">Quero assim ↗</button></figcaption>
+        </figure>
+
+        <figure class="work">
+          <div class="photo" data-label="Naked cake">
+            <img src="images/bolo-naked.jpg" alt="Bolo naked cake com cobertura fina, rolinhos de wafer e ramos de alecrim" loading="lazy" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>foto em breve</span></div>
+          </div>
+          <figcaption><span class="work-title">Naked cake</span><button class="work-pick" type="button" data-inspiration="naked cake com wafer e alecrim">Quero assim ↗</button></figcaption>
+        </figure>
+
+        <figure class="work">
+          <div class="photo" data-label="Tema anime">
+            <img src="images/bolo-anime.jpg" alt="Bolo com desenho de personagem de anime em preto e branco e borda de pérolas pretas" loading="lazy" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>foto em breve</span></div>
+          </div>
+          <figcaption><span class="work-title">Tema anime</span><button class="work-pick" type="button" data-inspiration="bolo com desenho de personagem (tema anime)">Quero assim ↗</button></figcaption>
+        </figure>
+
+        <figure class="work">
+          <div class="photo" data-label="Topper divertido">
+            <img src="images/bolo-topper.jpg" alt="Bolo com laço de cetim verde e topper divertido com notas de dinheiro" loading="lazy" onerror="this.closest('.photo').classList.add('is-missing');this.remove()">
+            <div class="photo-placeholder" aria-hidden="true"><svg class="icon"><use href="#icon-cake"/></svg><span>foto em breve</span></div>
+          </div>
+          <figcaption><span class="work-title">Topper divertido</span><button class="work-pick" type="button" data-inspiration="bolo com topper divertido e laço">Quero assim ↗</button></figcaption>
+        </figure>
+
+        <a class="work work-more" href="https://www.instagram.com/kassimos_bolos/" target="_blank" rel="noopener">
+          <strong>Veja mais trabalhos</strong>
+          <span>no Instagram @kassimos_bolos ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section sizes-section" id="tamanhos">
+      <div class="section-heading">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> ESCOLHA O TAMANHO</span><h2>Para dividir — ou <em>repetir.</em></h2></div>
+        <p>Uma estimativa para ajudar no planejamento. O rendimento pode variar conforme o corte e o tamanho das fatias.</p>
+      </div>
+
+      <div class="sizes-grid">
+        <article class="size-card" data-size="Aro 15">
+          <span class="size-label">PEQUENO</span>
+          <div class="size-aro">15<span>cm</span></div>
+          <h3>Aro 15</h3>
+          <p>Em média, <strong>10 a 15 fatias</strong></p>
+          <button class="button button-outline size-pick" type="button">Escolher este tamanho</button>
+        </article>
+        <article class="size-card size-featured" data-size="Aro 21">
+          <span class="size-label">MÉDIO</span>
+          <div class="size-aro">21<span>cm</span></div>
+          <h3>Aro 21</h3>
+          <p>Em média, <strong>20 a 28 fatias</strong></p>
+          <button class="button button-outline size-pick" type="button">Escolher este tamanho</button>
+        </article>
+        <article class="size-card" data-size="Aro 25">
+          <span class="size-label">GRANDE</span>
+          <div class="size-aro">25<span>cm</span></div>
+          <h3>Aro 25</h3>
+          <p>Em média, <strong>35 a 40 fatias</strong></p>
+          <button class="button button-outline size-pick" type="button">Escolher este tamanho</button>
+        </article>
+      </div>
+
+      <div class="guest-helper">
+        <label for="guest-count">Não sabe qual escolher? Quantas pessoas vão comemorar?</label>
+        <input id="guest-count" type="number" min="1" max="500" inputmode="numeric" placeholder="Ex.: 25">
+        <p id="guest-result" role="status" aria-live="polite">Digite o número de convidados e sugerimos o tamanho.</p>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="como-funciona">
+      <div class="steps-top"><span class="eyebrow"><span class="eyebrow-line"></span> SIMPLES ASSIM</span><h2>Do pedido à festa, <em>sem complicação.</em></h2></div>
+      <div class="steps-grid">
+        <article class="step"><span class="step-num">01</span><div class="step-icon">♡</div><h3>Monte seu pedido</h3><p>Escolha o tamanho, a data e conte o tema e as inspirações que você tem.</p></article>
+        <article class="step"><span class="step-num">02</span><div class="step-icon">✿</div><h3>Vamos combinar</h3><p>A mensagem chega pronta no WhatsApp. Alinhamos os detalhes, a disponibilidade, o valor e a entrega ou retirada.</p></article>
+        <article class="step"><span class="step-num">03</span><div class="step-icon">✧</div><h3>É hora de celebrar</h3><p>Com tudo combinado, é só se preparar para um momento mais gostoso.</p></article>
+      </div>
+    </section>
+
+    <section class="order-section" id="encomenda">
+      <div class="order-intro">
+        <span class="eyebrow"><span class="eyebrow-line"></span> FAÇA JÁ SUA ENCOMENDA</span>
+        <h2>Conte sua ideia, a gente cuida do <em>resto.</em></h2>
+        <p>Preencha o pedido e abrimos o WhatsApp com a mensagem pronta. Fotos de referência você envia por lá, na mesma conversa.</p>
+        <ul class="order-contacts">
+          <li><span>WhatsApp</span><a data-whatsapp href="https://www.instagram.com/kassimos_bolos/" target="_blank" rel="noopener"><span data-whatsapp-label>(21) 96779-0142</span></a></li>
+          <li><span>Instagram</span><a href="https://www.instagram.com/kassimos_bolos/" target="_blank" rel="noopener">@kassimos_bolos</a></li>
+        </ul>
+        <p class="order-note">Valor, disponibilidade da data e detalhes de entrega ou retirada são combinados na conversa.</p>
+      </div>
+
+      <form class="order-card" id="order-form" action="#">
+        <div class="field">
+          <label for="name">Seu nome</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="date">Data da comemoração</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div class="field">
+          <label for="occasion">Ocasião</label>
+          <select id="occasion" name="occasion">
+            <option value="">Selecione</option>
+            <option>Aniversário</option>
+            <option>Chá de bebê ou revelação</option>
+            <option>Casamento ou noivado</option>
+            <option>Formatura</option>
+            <option>Outra ocasião</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="size">Tamanho</label>
+          <select id="size" name="size">
+            <option value="">Ainda não sei</option>
+            <option value="Aro 15">Aro 15 (10 a 15 fatias)</option>
+            <option value="Aro 21">Aro 21 (20 a 28 fatias)</option>
+            <option value="Aro 25">Aro 25 (35 a 40 fatias)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="people">Quantas pessoas? <small>(opcional)</small></label>
+          <input id="people" name="people" type="number" min="1" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="flavor">Sabor ou recheio <small>(opcional)</small></label>
+          <input id="flavor" name="flavor" type="text" placeholder="Se já tiver uma ideia">
+        </div>
+        <div class="field field-wide">
+          <label for="theme">Tema, cores e inspiração</label>
+          <textarea id="theme" name="theme" rows="4" placeholder="Conte o tema, as cores, o que vai escrito no bolo… Fotos de referência você manda no WhatsApp."></textarea>
+        </div>
+        <fieldset class="field field-wide choice-group">
+          <legend>Retirada ou entrega?</legend>
+          <div class="choices">
+            <label><input type="radio" name="delivery" value="Retirada"> Retirada</label>
+            <label><input type="radio" name="delivery" value="Entrega"> Entrega</label>
+            <label><input type="radio" name="delivery" value="Ainda não sei"> Ainda não sei</label>
+          </div>
+        </fieldset>
+        <div class="field field-wide" id="address-wrap" hidden>
+          <label for="address">Bairro ou endereço da entrega</label>
+          <input id="address" name="address" type="text" autocomplete="street-address">
+        </div>
+        <button class="button button-primary submit" type="submit">Enviar pedido pelo WhatsApp <span>↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite">Ao enviar, abrimos o WhatsApp com a mensagem pronta para você revisar.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#inicio" aria-label="Kassimos Bolos Decorados, voltar ao início">
+      <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#icon-cake"/></svg></span>
+      <span class="brand-copy"><span class="brand-name">Kassimos</span><span class="brand-subtitle">BOLOS DECORADOS</span></span>
+    </a>
+    <p>Feito com carinho, para momentos que ficam. <span>♡</span></p>
+    <div class="footer-links">
+      <a data-whatsapp href="https://www.instagram.com/kassimos_bolos/" target="_blank" rel="noopener"><span data-whatsapp-label>(21) 96779-0142</span></a>
+      <a href="https://www.instagram.com/kassimos_bolos/" target="_blank" rel="noopener">@kassimos_bolos</a>
+      <a class="back-top" href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
