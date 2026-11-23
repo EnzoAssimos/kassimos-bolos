@@ -1,5 +1,20 @@
 # Kassimos Bolos Decorados — site de encomendas
 
+🔗 **Ver o site:** https://enzoassimos.github.io/kassimos-bolos/
+
+Site para uma confeitaria de bolos decorados. A pessoa vê os trabalhos, escolhe o tamanho, preenche o pedido e o site abre o WhatsApp com a mensagem pronta.
+
+**Destaques**
+- Layout responsivo (celular e computador)
+- Formulário de pedido que monta a mensagem do WhatsApp automaticamente
+- Sugestão do tamanho do bolo pelo número de pessoas
+- Botões "Quero assim" que preenchem o pedido sozinhos
+
+**Tecnologias:** HTML, CSS e JavaScript puro
+
+---
+
+
 Site estático responsivo em HTML, CSS e JavaScript puro. Foi pensado para **encomenda sob medida**, não para cardápio: a pessoa vê os trabalhos, escolhe o tamanho, preenche o pedido e o site abre o WhatsApp com a mensagem já montada.
 
 ## Como visualizar
